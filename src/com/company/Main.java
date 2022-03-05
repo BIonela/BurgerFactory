@@ -10,7 +10,7 @@ public class Main {
         showMenu();
         String burgerType = scanner.nextLine().toLowerCase();
 
-        //TODO: Check input
+        //TODO: Check input choice
         if(burgerType.equals("hamburger")) {
             Hamburger hamburger = new Hamburger();
             System.out.println(hamburger.toString());
